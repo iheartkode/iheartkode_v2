@@ -24,6 +24,8 @@ nav li {
     border-radius: 10px;
     font-size: 20px;
     border: 3px solid #DDDDDD;
+    width: 100px;
+    max-width: 100px;
 }
 
 .image-header {
@@ -88,5 +90,17 @@ h1,h2 {
 .social-icons li {
     display: inline-block;
     list-style: none;
+    font-size: 40px;
+    margin-right: 20px;
 
+}
+.get-in-touch {
+    border-top: 4px solid #ddd;
+    background: #444444;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+.get-in-touch h2 {
+    color: #FFF;
 }
