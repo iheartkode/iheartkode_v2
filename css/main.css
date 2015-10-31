@@ -84,3 +84,9 @@ h1,h2 {
 .hover-nav {
     background: #007095;
 }
+
+.social-icons li {
+    display: inline-block;
+    list-style: none;
+
+}
