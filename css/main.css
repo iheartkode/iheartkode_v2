@@ -1,45 +1,60 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
-
-
-nav {
-
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed|Oswald);
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
+nav {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
 nav li {
     margin-top: 5px;
     display: inline-block;
     list-style: none;
+    background: #003f54;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 3px solid #DDDDDD;
 }
 
 .image-header {
     width: 90px;
     float: left;
     border-radius: 50%;
-    margin-right: 10px;
-    margin-top: 15px;
+    margin-right: 15px;
+
 }
 
 header {
     position: relative;
     top: 0;
-    background: #303030;
+    background: #fff;
     width: 100%;
-    color: #61b6d9;
-    border-bottom: 5px solid #61b6d9;
+    color: #003f54;
+    border-bottom: 5px solid #003f54;
 }
 header h1 {
-    color: #61b6d9;
-    font-family: 'Roboto', sans-serif;
+    color: #003f54;
+    font-family: 'Oswald', sans-serif;
 }
 
-.slogan {
-    font-style: italic;
+.logo {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
+
 .skills-img {
     opacity: 0.7;
     width: 100%;
     max-width: 100%;
     border-bottom: 4px solid #61b6d9;
 
+}
+
+h2 {
+    color: #003f54;
+    font-family: 'Oswald', sans-serif;
 }
 
