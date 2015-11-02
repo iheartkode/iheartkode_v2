@@ -2,6 +2,7 @@
  * Created by mark on 10/30/2015.
  */
 $(document).ready(function () {
+    // navigation effects
     $("#home").on("mouseover",function() {
         $("#home").addClass("hover-nav");
     });
@@ -20,5 +21,7 @@ $(document).ready(function () {
     $("#projects").on("mouseout",function() {
         $("#projects").removeClass("hover-nav");
     });
+
+
 
 });
